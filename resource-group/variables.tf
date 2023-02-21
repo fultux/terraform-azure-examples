@@ -18,3 +18,18 @@ variable "client_id" {
   type    = string
   description = "Azure's service principal client id"
 }
+
+
+variable "rg_name" {
+  type    = string
+  description = "Name of the resource group"
+}
+
+
+variable "rg_location" {
+  type    = string
+  description = "Location of the resource group"
+  default = "francecentral"
+}
+
+

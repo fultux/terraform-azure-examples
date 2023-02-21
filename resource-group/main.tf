@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "example-rg-frugiano" {
-  name     = "example-rg-frugiano"
-  location = "France Central"
+  name     = var.rg_name
+  location = var.rg_location
 }
 
